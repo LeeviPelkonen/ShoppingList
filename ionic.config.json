@@ -1,5 +1,11 @@
 {
-  "name": "FindCompany",
+  "name": "New Ionic App",
   "integrations": {},
-  "type": "angular"
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path":"/api",
+      "proxyUrl": "http://avoindata.prh.fi/ytj.html"
+    }
+  ]
 }
